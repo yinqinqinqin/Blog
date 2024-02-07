@@ -113,6 +113,10 @@ search:
 butterfly_article_double_row:
   enable: true  
 
+aplayer:
+  meting: true
+  asset_inject: false
+
 
 
 
