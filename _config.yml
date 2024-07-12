@@ -7,13 +7,13 @@ title: 安好的个人日记
 subtitle: ''
 description: ''
 keywords: 
-author: 安好AnHao
+author: 安好
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://www.an-hao.top/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -82,7 +82,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: 'date'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -105,6 +105,7 @@ theme: butterfly
 deploy:
   type: ''
 
+
 search:
   path: search.xml
   field: post
@@ -116,6 +117,20 @@ butterfly_article_double_row:
 aplayer:
   meting: true
   asset_inject: false
+
+
+#看板娘
+live2d:  
+  enable: true  
+  scriptFrom: local # 或使用cdn等其他来源  
+  model:  
+    use: live2d-widget-model-chitose # 替换为下载的模型名称  
+  display:  
+    position: left # 将看板娘放到左边  
+    width: 200 # 宽度  
+    height: 300 # 高度  
+    mobile:  
+      show: false # 是否在手机端显示
 
 
 
